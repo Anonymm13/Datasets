@@ -56,5 +56,8 @@ CREATE TABLE SALES_FACT (
 
 
 
-If cust_address Matches '0X[A-Za-z0-9 ,.]%', "Valid", "Invalid")
+If Index(cust_address, "@") > 0 Or 
+   Index(cust_address, "#") > 0 Or 
+   Index(cust_address, "$") > 0 Then "Invalid" Else "Valid"
+
 
