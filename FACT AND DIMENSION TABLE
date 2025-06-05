@@ -48,3 +48,13 @@ CREATE TABLE SALES_FACT (
     FOREIGN KEY (SL_BRNCH_ID) REFERENCES BRANCH_DIM(BR_ID),
     FOREIGN KEY (SL_PROD_ID) REFERENCES PRODUCT_DIM(PROD_ID)
 );
+
+
+
+
+
+
+
+
+If cust_address Matches '0X[A-Za-z0-9 ,.]%', "Valid", "Invalid")
+
